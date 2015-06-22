@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "Web\Web.csproj", "{C318B56D-D0C4-429C-91BD-3CE4400B9529}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A0A03D2B-2C25-4E4D-A683-15C0297A5405} = {A0A03D2B-2C25-4E4D-A683-15C0297A5405}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "Api\Api.csproj", "{A0A03D2B-2C25-4E4D-A683-15C0297A5405}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C318B56D-D0C4-429C-91BD-3CE4400B9529}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C318B56D-D0C4-429C-91BD-3CE4400B9529}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C318B56D-D0C4-429C-91BD-3CE4400B9529}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C318B56D-D0C4-429C-91BD-3CE4400B9529}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0A03D2B-2C25-4E4D-A683-15C0297A5405}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0A03D2B-2C25-4E4D-A683-15C0297A5405}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0A03D2B-2C25-4E4D-A683-15C0297A5405}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0A03D2B-2C25-4E4D-A683-15C0297A5405}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
